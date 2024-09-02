@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/generateM3U", "dest": "/pages/api/generateM3U.js" }
+  ]
+}
